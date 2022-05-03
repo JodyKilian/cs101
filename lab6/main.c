@@ -20,19 +20,19 @@ int _power(int x, int y) {
     return sum;
 }
 
-int main(void) {
+int main() {
     int x, y, choice;
-    int (*operation[5])(int, int);
-    operation[0] = _sum;
-    operation[1] = _sub;
-    operation[2] = _mult;
-    operation[3] = _div;
-    operation[4] = _power;
+    int (*ope[5])(int, int);
+    ope[0] = _sum;
+    ope[1] = _sub;
+    ope[2] = _mult;
+    ope[3] = _div;
+    ope[4] = _power;
 
     printf("Enter two integer: ");
     scanf("%d%d", &x, &y);
     printf("Enter 0 to +, 1 to -, 2 to *, 3 to /, 4 to ^: ");
     scanf("%d", &choice);
-    printf("%d\n", operation[choice](x, y));
+    printf("%d\n", ope[choice](x, y));
     return 0;
 }
