@@ -91,17 +91,5 @@ int main() {
 	mmer.free_MM(p1);
 	mmer.free_MM(p4);
 	int* p5 = mmer.calloc_MM(6);
-
 	return 0;
-}
-int main() {
-    MMmanger mmer(10);
-    int *p1 = mmer.calloc_MM(1);
-    int *p2 = mmer.calloc_MM(2);
-    int *p3 = mmer.calloc_MM(3);
-    int *p4 = mmer.calloc_MM(4);
-    mmer.free_MM(p1);
-    mmer.free_MM(p4);
-    int *p5 = mmer.calloc_MM(6);
-    return 0;
 }
