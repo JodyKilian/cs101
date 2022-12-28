@@ -11,9 +11,9 @@ int main() {
             i = i / 2;
         }
         if(i == 1) {
-            printf("%d is a power of 2", n);
+            printf("%d is true", n);
         } else {
-            printf("%d is not a power of 2", n);
+            printf("%d is false", n);
         }
     }
     return 0;
