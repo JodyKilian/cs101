@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main() {
     int i = 10;
     printf("Enter Number: %d\n",i);
